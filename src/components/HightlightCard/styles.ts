@@ -37,7 +37,7 @@ export const Icon = styled(Feather)<TypeProps>`
   font-size: ${RFValue(40)}px;
 
   ${({ type }) => type === 'up' && css`
-    color: ${({ theme }) => theme.colors.sucess};
+    color: ${({ theme }) => theme.colors.success};
   `};
 
   ${({ type }) => type  === 'down' && css`

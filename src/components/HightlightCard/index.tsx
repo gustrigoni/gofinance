@@ -36,7 +36,7 @@ export function HightlightCard ({
         <Title
           type={type}
         >
-          Entrada
+          Entradas
         </Title>
         <Icon 
           name={icon[type]}
