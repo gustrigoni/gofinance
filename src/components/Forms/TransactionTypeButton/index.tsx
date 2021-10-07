@@ -15,7 +15,7 @@ const icons = {
 
 interface Props extends RectButtonProps {
   title: string;
-  type: 'up' | 'down';
+  type: 'positive' | 'negative';
   isActive: boolean;
 }
 
